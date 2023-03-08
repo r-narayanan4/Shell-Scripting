@@ -4,7 +4,7 @@
 #18.212.185.2   tomcat tomcat123 whoami
 
 #execute_different_cmds_on_different_servers_with_differnt_users_and_passwords.sh
---------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
 #!/bin/bash
 while read ser user pass cmd1 cmd2
 do
