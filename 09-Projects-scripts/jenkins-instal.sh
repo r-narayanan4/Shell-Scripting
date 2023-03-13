@@ -19,6 +19,7 @@ YOURPORT=8080
 PERM="--permanent"
 SERV="$PERM --service=jenkins"
 
+#Firewall permission(note: it will not work in amazon linux because it will use iptables by default)
 sudo firewall-cmd $PERM --new-service=jenkins
 sudo firewall-cmd $SERV --set-short="Jenkins ports"
 sudo firewall-cmd $SERV --set-description="Jenkins port exceptions"
