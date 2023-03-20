@@ -1,8 +1,8 @@
 #!/bin/bash
-clear
-read -p "Enter Num1: " a
-read -p "Enter Num2: " b
-read -p "Enter your option(1.Addition,2.Sub,3.Mul,4.Div): " opt
+read -p "Enter num1:" a
+read -p "Enter num2:" b
+read -p "Enter your option(1.Addition,2.Sub,3.Mul,4.Div)" opt
+
 case $opt in
     1)
         echo "You selected Addition"
